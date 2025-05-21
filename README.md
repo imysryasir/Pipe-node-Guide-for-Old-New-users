@@ -132,7 +132,7 @@ sudo chmod +x /opt/popcache/pop
 
 
 ```
-nano config.json
+sudo nano config.json
 ```
 
 ```
