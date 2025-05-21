@@ -286,7 +286,7 @@ sudo kill -9 123
 sudo fuser -k 443/tcp
 ```
 
-Reference Video How to Free 8003 or any port - https://youtu.be/4iP4GvLfCrU?t=229
+# Refrence Guide Video : https://www.youtube.com/@KindCrypto
 
 # Delete Pipe node to Reset
 
@@ -295,3 +295,7 @@ cd /data
 sudo rm -rf /opt/popcache  # Deletes the 'popcache' binary
 sudo rm -f config.json  # Deletes the 'node_info.json' file
 ```
+
+
+
+# Join Telegram For latest updates and Solutions : https://t.me/kind_cr
