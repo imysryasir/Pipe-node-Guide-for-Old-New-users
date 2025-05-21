@@ -116,6 +116,12 @@ Replace "c/Users/bhaty/Downloads/File" to your Actual File Path in ur System
 scp -r "C:\Users\bhaty\Downloads\File" root@VPS_IP:/opt/popcache/
 ```
 Replace "C:\Users\bhaty\Downloads\File" to your Actual File Path in ur System and VPS_IP with ur Actual VPS IP
+
+Verify fill location
+```
+ls /opt/popcache
+```
+
 ```
 sudo tar -xzf pop-v0.3.0-linux-*.tar.gz
 ```
