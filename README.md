@@ -260,6 +260,46 @@ sudo systemctl restart popcache
 ```
 
 # TROUBLESHOOTING ✅
+## Step-by-Step to Debug & Fix:
+### Check if the executable exists
+```
+ls -l /opt/popcache/pop
+```
+If it says "No such file or directory", then the binary is missing or the path is wrong.
+
+### Try running the binary manually
+
+```
+/opt/popcache/pop
+```
+You'll likely get an error that tells you why it’s failing (e.g., missing config file, missing dependency, etc.).
+
+
+### If anything is incorrect, edit it with:
+
+```
+sudo nano /etc/systemd/system/popcache.service
+```
+### After editing, reload systemd:
+
+```
+sudo systemctl daemon-reload
+```
+## Fix file permissions (if needed)
+```
+sudo chmod +x /opt/popcache/pop
+```
+
+# Final Step
+## After doing the above steps, restart the service:
+
+```
+sudo systemctl restart popcache
+```
+```
+sudo systemctl status popcache
+```
+
 ## Need to Free Your 8003 Port
 
 ## Identify the Process Using Port 443
