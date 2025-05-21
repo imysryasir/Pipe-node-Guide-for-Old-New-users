@@ -1,6 +1,12 @@
 # Pipe Network Node Run Full Guide for New and Old users  (VPS & PC users)
 
 
+## First thing For PC Users only
+### Upgrade UBUNTU
+```
+sudo do-release-upgrade
+```
+
 ## Prerequisites (Devnet Node Run Users Only)
 	
 ## Stop your Old Node
