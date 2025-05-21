@@ -139,7 +139,7 @@ sudo chmod +x /opt/popcache/pop
 
 ## Get the locations of your PC or VPS and Copy it to Notes
 
-- `pop-location`: location of PC or VPS --> Command to Check --> `realpath --relative-to /usr/share/zoneinfo /etc/localtime`
+- `pop-location`: location of PC or VPS --> Command to Check --> `curl ipinfo.io`
 - `website`: Anything you prefer (TG, X, Or any Link)
 
 
