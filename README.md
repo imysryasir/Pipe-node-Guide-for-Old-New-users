@@ -34,6 +34,14 @@ sudo apt install -y libssl-dev ca-certificates
 ```
 
 # Enable Firewall & Open Ports
+Install  UFW (if you doing first time)
+
+```
+sudo apt update
+sudo apt install ufw
+```
+
+Now Enable Firewall & Open Ports
 
 ```
 sudo ufw allow ssh
